@@ -4,10 +4,10 @@
   "description": "Container App",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "prod-deploy": "node ftp-prod.js"
   },
   "dependencies": {
-    "ftp-deploy": "^2.3.8",
     "html-webpack-plugin": "^5.5.0",
     "nodemon": "^2.0.15",
     "webpack": "^5.68.0",
@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/abhiverma23/container-mf-js-example#readme",
   "devDependencies": {
+    "dotenv": "^16.0.0",
+    "ftp-deploy": "^2.3.8",
     "webpack-merge": "^5.8.0"
   }
 }
