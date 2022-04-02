@@ -1,0 +1,32 @@
+{
+  "name": "container",
+  "version": "0.0.1",
+  "description": "Container App",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "ftp-deploy": "^2.3.8",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhiverma23/container-mf-js-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhiverma23/container-mf-js-example/issues"
+  },
+  "homepage": "https://github.com/abhiverma23/container-mf-js-example#readme",
+  "devDependencies": {
+    "webpack-merge": "^5.8.0"
+  }
+}
