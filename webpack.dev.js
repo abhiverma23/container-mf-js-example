@@ -13,6 +13,7 @@ module.exports = merge(common, {
       name: 'root-container',
       remotes: {
         ic01: 'innercontainer01@http://localhost:8081/remoteEntry.js',
+        ic02: 'innercontainer02@http://localhost:8082/remoteEntry.js',
       },
     }),
   ],
